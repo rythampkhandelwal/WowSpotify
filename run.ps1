@@ -691,7 +691,7 @@ if (Test-Path -Path $hostsFilePath) {
 
 # Unique directory name based on time
 Push-Location -LiteralPath ([System.IO.Path]::GetTempPath())
-New-Item -Type Directory -Name "SpotX_Temp-$(Get-Date -UFormat '%Y-%m-%d_%H-%M-%S')" | Convert-Path | Set-Location
+New-Item -Type Directory -Name "WowSpotify_Temp-$(Get-Date -UFormat '%Y-%m-%d_%H-%M-%S')" | Convert-Path | Set-Location
 
 if ($premium) {
     Write-Host ($lang).Prem`n
@@ -1479,7 +1479,7 @@ function extract ($counts, $method, $name, $helper, $add, $patch) {
             Add-Type -Assembly 'System.IO.Compression.FileSystem'
             $xpui_spa_patch = Join-Path (Join-Path $env:APPDATA 'Spotify\Apps') 'xpui.spa'
             $zip = [System.IO.Compression.ZipFile]::Open($xpui_spa_patch, 'update') 
-            $zip.Entries | Where-Object { $_.FullName -like $name -and $_.FullName.Split('/') -notcontains 'spotx-helper' } | foreach { 
+            $zip.Entries | Where-Object { $_.FullName -like $name -and $_.FullName.Split('/') -notcontains 'WowSpotify-helper' } | foreach { 
                 $reader = New-Object System.IO.StreamReader($_.Open())
                 $xpui = $reader.ReadToEnd()
                 $reader.Close()
@@ -2028,7 +2028,7 @@ if ($test_spa) {
     $zip = [System.IO.Compression.ZipFile]::Open($xpui_spa_patch, 'update')
     $entry = $zip.GetEntry('xpui.js')
     $reader = New-Object System.IO.StreamReader($entry.Open())
-    $patched_by_spotx = $reader.ReadToEnd()
+    $patched_by_WowSpotify = $reader.ReadToEnd()
     $reader.Close()
 
 
@@ -2042,7 +2042,7 @@ if ($test_spa) {
         $spotify_binary = $spotifyExecutable
     }
 
-    If ($patched_by_spotx -match 'patched by spotx') {
+    If ($patched_by_WowSpotify -match 'patched by WowSpotify') {
         $zip.Dispose()    
 
         if ($test_bak_spa) {
@@ -2061,7 +2061,7 @@ if ($test_spa) {
                 }
                 else {
                     $binary_exe_bak = [System.IO.Path]::GetFileName($exe_bak)
-                    Write-Warning ("Backup copy {0} not found. Please reinstall Spotify and run SpotX again" -f $binary_exe_bak)
+                    Write-Warning ("Backup copy {0} not found. Please reinstall Spotify and run WowSpotify again" -f $binary_exe_bak)
                     Pause
                     Exit
                 }
@@ -2072,7 +2072,7 @@ if ($test_spa) {
                 }
                 else {
                     $binary_chrome_elf_bak = [System.IO.Path]::GetFileName($chrome_elf_bak)
-                    Write-Warning ("Backup copy {0} not found. Please reinstall Spotify and run SpotX again" -f $binary_chrome_elf_bak)
+                    Write-Warning ("Backup copy {0} not found. Please reinstall Spotify and run WowSpotify again" -f $binary_chrome_elf_bak)
                     Pause
                     Exit
                 }
@@ -2115,7 +2115,7 @@ if ($test_spa) {
     }
 
     # Forced exp
-    extract -counts 'one' -method 'zip' -name 'xpui.js' -helper 'ForcedExp' -add $webjson.others.byspotx.add
+    extract -counts 'one' -method 'zip' -name 'xpui.js' -helper 'ForcedExp' -add $webjson.others.byWowSpotify.add
 
     # Hiding Ad-like sections or turn off podcasts from the homepage
     if ($podcast_off -or $adsections_off -or $canvashome_off) {
@@ -2137,7 +2137,7 @@ if ($test_spa) {
 
             if (!($calltype -eq "'canvas'" -and [version]$offline -le [version]"1.2.44.405")) {
                 $section = $section -replace "sectionBlock\(data, ''\)", "sectionBlock(data, $calltype)"
-                injection -p $xpui_spa_patch -f "spotx-helper" -n "sectionBlock.js" -c $section
+                injection -p $xpui_spa_patch -f "WowSpotify-helper" -n "sectionBlock.js" -c $section
             }
         }
 
@@ -2150,7 +2150,7 @@ if ($test_spa) {
         
         if ($goofy -ne $null) {
 
-            injection -p $xpui_spa_patch -f "spotx-helper" -n "goofyHistory.js" -c $goofy
+            injection -p $xpui_spa_patch -f "WowSpotify-helper" -n "goofyHistory.js" -c $goofy
         }
     }
 
@@ -2166,7 +2166,7 @@ if ($test_spa) {
         $colorsContent = $colorsContent -replace '{{background}}', "$($webjson.others.themelyrics.theme.$lyrics_stat.background)"
         $colorsContent = $colorsContent -replace '{{musixmatch}}', "$($webjson.others.themelyrics.theme.$lyrics_stat.maxmatch)"
 
-        injection -p $xpui_spa_patch -f "spotx-helper/lyrics-color" -n @("rules.css", "colors.css") -c @($rulesContent, $colorsContent) -i "rules.css"
+        injection -p $xpui_spa_patch -f "WowSpotify-helper/lyrics-color" -n @("rules.css", "colors.css") -c @($rulesContent, $colorsContent) -i "rules.css"
 
     }
     extract -counts 'one' -method 'zip' -name 'xpui.js' -helper 'VariousofXpui-js'
@@ -2310,7 +2310,7 @@ if ($regex1 -and $regex2 -and $regex3 -and $regex4 -and $regex5) {
 
 if (-not (Test-Path -LiteralPath $spotify_binary_bak)) {
     $name_binary = [System.IO.Path]::GetFileName($spotify_binary_bak)
-    Write-Warning ("Backup copy {0} not found. Please reinstall Spotify and run SpotX again" -f $name_binary)
+    Write-Warning ("Backup copy {0} not found. Please reinstall Spotify and run WowSpotify again" -f $name_binary)
     Pause
     Exit
 }
