@@ -1,0 +1,338 @@
+{
+    "lang": {
+        "version": "1.2.74",
+        "language": "Russian"
+    },
+    "1": {
+        "match": "\"Confirm your age\"",
+        "replace": "\"Подтвердите свой возраст\""
+    },
+    "2": {
+        "match": "\"%price%/month after. Terms and conditions apply. One month free not available for users who have already tried Premium.\"",
+        "replace": "\"%price%/месяц спустя. Принять условия. Один месяц бесплатно, недоступно для пользователей, которые уже попробовали Premium.\""
+    },
+    "3": {
+        "match": "\"Offline storage location\"",
+        "replace": "\"Хранилище скачанных треков\""
+    },
+    "4": {
+        "match": "\"Click to start listening\"",
+        "replace": "\"Нажмите, чтобы начать прослушивание\""
+    },
+    "5": {
+        "match": "\"Change speed\"",
+        "replace": "\"Изменение скорости\""
+    },
+    "6": {
+        "match": "\"You need to be at least 19 years old to listen to explicit content marked with\"",
+        "replace": "\"Вам должно быть не менее 19 лет, чтобы слушать непристойный контент, помеченный значком\""
+    },
+    "7": {
+        "match": "\"Add to another playlist\"",
+        "replace": "\"Добавить в другой плейлист\""
+    },
+    "8": {
+        "match": "\"Add to this playlist\"",
+        "replace": "\"Добавить в этот плейлист\""
+    },
+    "9": {
+        "match": "\"Character counter\"",
+        "replace": "\"Счетчик символов\""
+    },
+    "10": {
+        "match": "\"Toggle lightsaber hilt. Current is [{]0[}].\"",
+        "replace": "\"Переключить рукоять светового меча. Текущий {0}.\""
+    },
+    "11": {
+        "match": "\"Doors at .0.\"",
+        "replace": "\"Вход в {0}\""
+    },
+    "12": {
+        "match": "\"Show at .0.\"",
+        "replace": "\"Показ в {0}\""
+    },
+    "13": {
+        "match": "\"Your Location\"",
+        "replace": "\"Ваше местоположение\""
+    },
+    "14": {
+        "match": "\"Override certain user attributes to test regionalized content programming. The overrides are only active in this app.\"",
+        "replace": "\"Переопределите определенные атрибуты пользователя, чтобы протестировать региональное программирование контента. Переопределения активны только в этом приложении.\""
+    },
+    "15": {
+        "match": " was released this week!",
+        "replace": " был выпущен на этой неделе!"
+    },
+    "16": {
+        "match": "\"Speed [{]0[}]×\"",
+        "replace": "\"Скорость {0}×\""
+    },
+    "17": {
+        "match": "\"Artist\"",
+        "replace": "\"Исполнитель\""
+    },
+    "18": {
+        "match": "\"... of ...\"",
+        "replace": "\"{0} из {1}\""
+    },
+    "19": {
+        "match": "\"Не удалось изменить\"",
+        "replace": "\"Не удалось обновить\""
+    },
+    "20": {
+        "match": "Dynamic loudness control for podcasts - Actively maintain optimal podcast volume level for a clear and balanced sound experience",
+        "replace": "Динамическое управление громкостью для подкастов - активное поддержание оптимального уровня громкости подкаста для четкого и сбалансированного звукового восприятия"
+    },
+    "21": {
+        "match": "\"Build .0. is available\"",
+        "replace": "\"Сборка {0} доступна\""
+    },
+    "22": {
+        "match": "\"Downloading build .0....\"",
+        "replace": "\"Загрузка сборки {0}...\""
+    },
+    "23": {
+        "match": "\"Build .0. is ready to install\"",
+        "replace": "\"Сборка {0} готова к установке\""
+    },
+    "24": {
+        "match": "\"Remove\"",
+        "replace": "\"Удалить\""
+    },
+    "25": {
+        "match": "\"Do not translate\"",
+        "replace": "\"Не переводить\""
+    },
+    "26": {
+        "match": "\"Translating to .0.\"",
+        "replace": "\"Перевожу на {0}\""
+    },
+    "27": {
+        "match": "\"Translation to .0. not available\"",
+        "replace": "\"Перевод на {0} недоступен\""
+    },
+    "28": {
+        "match": "\"Translate lyrics\"",
+        "replace": "\"Перевести текст песни\""
+    },
+    "29": {
+        "match": "\"Spotify MiniPlayer\"",
+        "replace": "\"мини-плеер Spotify\""
+    },
+    "30": {
+        "match": "\"Venue\"",
+        "replace": "\"Место проведения\""
+    },
+    "31": {
+        "match": "\"We couldn't find the venue\"",
+        "replace": "\"Мы не смогли найти место проведения\""
+    },
+    "32": {
+        "match": "\"Notifications\"",
+        "replace": "\"Уведомления\""
+    },
+    "33": {
+        "match": "\"Bring back to main window\"",
+        "replace": "\"Вернуться к основному окну\""
+    },
+    "34": {
+        "match": "\"You have no notifications\"",
+        "replace": "\"У вас нет уведомлений\""
+    },
+    "35": {
+        "match": "\"Chapter\"",
+        "replace": "\"Глава\""
+    },
+    "36": {
+        "match": "\"Song\"",
+        "replace": "\"Трек\""
+    },
+    "37": {
+        "match": "\"Episode\"",
+        "replace": "\"Эпизод\""
+    },
+    "38": {
+        "match": "\"The venue you requested couldn.t be found, please try again.\"",
+        "replace": "\"Запрошенное вами место проведения не найдено, попробуйте снова.\""
+    },
+    "39": {
+        "match": "\"There was an error fetching the venue.\"",
+        "replace": "\"Произошла ошибка при получении места проведения.\""
+    },
+    "40": {
+        "match": "\"Concerts\"",
+        "replace": "\"Концерты\""
+    },
+    "41": {
+        "match": "\"all times are local to the venue\"",
+        "replace": "\"все время указано по месту проведения\""
+    },
+    "42": {
+        "match": "\"Spotify Spotlight Presale\"",
+        "replace": "\"Предпродажа Spotify Spotlight\""
+    },
+    "43": {
+        "match": "\"Get access\"",
+        "replace": "\"Получить доступ\""
+    },
+    "44": {
+        "match": "\"Continue playing\"",
+        "replace": "\"Продолжить воспроизведение\""
+    },
+    "45": {
+        "match": "\"Fans First\"",
+        "replace": "\"Для фанатов\""
+    },
+    "46": {
+        "match": "\"Offer ends in .0.:.1.:.2.\"",
+        "replace": "\"До конца предложения: {0}:{1}:{2}\""
+    },
+    "47": {
+        "match": "\"Search in Authors\"",
+        "replace": "\"Искать в Авторах\""
+    },
+    "48": {
+        "match": "\"A soundtrack for every part of the day.\"",
+        "replace": "\"Саундтрек для любого времени суток.\""
+    },
+    "49": {
+        "match": "\"See your unique playlist\"",
+        "replace": "\"Посмотрите свой уникальный плейлист\""
+    },
+    "50": {
+        "match": "\"You.ll still get:\"",
+        "replace": "\"Вы также получите:\""
+    },
+    "51": {
+        "match": "\"Trending songs in .country. . Spotify\"",
+        "replace": "\"Популярные песни в %country% | Spotify\""
+    },
+    "52": {
+        "match": "\"Featured Charts in .country. . Spotify\"",
+        "replace": "\"Избранные чарты в %country% . Spotify\""
+    },
+    "53": {
+        "match": "\"Popular artists in .country. . Spotify\"",
+        "replace": "\"Популярные исполнители в %country% | Spotify\""
+    },
+    "54": {
+        "match": "\"Popular albums in .country. . Spotify\"",
+        "replace": "\"Популярные альбомы в %country% | Spotify\""
+    },
+    "55": {
+        "match": "\"Discover trending songs in .country. today.\"",
+        "replace": "\"Откройте для себя трендовые песни в %country% сегодня.\""
+    },
+    "56": {
+        "match": "\"Discover Featured Charts in .country. today.\"",
+        "replace": "\"Откройте для себя избранные чарты в %country% сегодня.\""
+    },
+    "57": {
+        "match": "\"Discover the most popular artists in .country. today.\"",
+        "replace": "\"Откройте для себя самых популярных исполнителей в %country% сегодня.\""
+    },
+    "58": {
+        "match": "\"Discover the most popular albums in .country. today.\"",
+        "replace": "\"Откройте для себя самые популярные альбомы в %country% сегодня.\""
+    },
+    "59": {
+        "match": "\"Close\"",
+        "replace": "\"Закрыть\""
+    },
+    "60": {
+        "match": "\"Ok, we won.t play music from this artist again.\"",
+        "replace": "\"Хорошо, мы больше не будем воспроизводить музыку этого исполнителя\""
+    },
+    "61": {
+        "match": "\"Compact list\"",
+        "replace": "\"Компактный список\""
+    },
+    "62": {
+        "match": "\"Compact grid\"",
+        "replace": "\"Компактная сетка\""
+    },
+    "63": {
+        "match": "\"Lyrics preview\"",
+        "replace": "\"Превью текста\""
+    },
+    "64": {
+        "match": "\"Show less\"",
+        "replace": "\"Свернуть\""
+    },
+    "65": {
+        "match": "\"Show more\"",
+        "replace": "\"Развернуть\""
+    },
+    "66": {
+        "match": "\"Hide lyrics\"",
+        "replace": "\"Скрыть текст\""
+    },
+    "67": {
+        "match": "\"Переключиться на видеорежим\"",
+        "replace": "\"К видео\""
+    },
+    "68": {
+        "match": "\"Переключиться на аудиорежим\"",
+        "replace": "\"К аудио\""
+    },
+    "69": {
+        "match": "\".\".name..\" was released .years. year ago this week!\"",
+        "replace": "\"На этой неделе исполнился %years% год с момента выхода \\\"%name%\\\"!\""
+    },
+    "70": {
+        "match": "((?:few|other)..)\".\".name..\" was released .years. years ago this week!\"",
+        "replace": "$1\"На этой неделе исполнилось %years% года с момента выхода \\\"%name%\\\"!\""
+    },
+    "71": {
+        "match": "(many..)\".\".name..\" was released .years. years ago this week!\"",
+        "replace": "$1\"На этой неделе исполнилось %years% лет с момента выхода \\\"%name%\\\"!\""
+    },
+    "72": {
+        "match": "\".Select Type. \"",
+        "replace": "\"<Выберите тип>\""
+    },
+    "73": {
+        "match": "\"Connect\"",
+        "replace": "\"Подключить устройство\""
+    },
+    "74": {
+        "match": "\"Синхронизация\"",
+        "replace": "\"Синхронизировать\""
+    },
+    "75": {
+        "match": "\"Browse the live events feed to find more concerts.\"",
+        "replace": "\"Листайте нашу афишу, чтобы найти больше концертов.\""
+    },
+    "76": {
+        "match": "\"No concerts found\"",
+        "replace": "\"Концертов не найдено\""
+    },
+    "77": {
+        "match": "\"Browse the live events feed to find more venues.\"",
+        "replace": "\"Листайте нашу афишу, чтобы найти больше площадок.\""
+    },
+    "78": {
+        "match": "\"No venues found\"",
+        "replace": "\"Площадок не найдено\""
+    },
+    "79": {
+        "match": "\"Concerts in Your Top Genre\"",
+        "replace": "\"Концерты в вашем любимом жанре\""
+    },
+    "80": {
+        "match": "\"Follow your favorite venues to discover and browse events happening near you\"",
+        "replace": "\"Подписывайтесь на любимые площадки, чтобы открывать и просматривать события рядом с вами\""
+    },
+    "81": {
+        "match": "\"Search results\"",
+        "replace": "\"Результаты поиска\""
+    },
+    "82": {
+        "match": "\"BPM\"",
+        "replace": "\"Темп\""
+    },
+    "83": {
+        "match": "\"Folder name is required\"",
+        "replace": "\"Имя папки обязательно\""
+    }
+}
