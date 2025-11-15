@@ -23,8 +23,8 @@ if exist "%SPOTIFY_PATH%\Apps\xpui.bak" (
     move "%SPOTIFY_PATH%\Apps\xpui.bak" "%SPOTIFY_PATH%\Apps\xpui.spa" > NUL 2>&1
 ) 
 
-if exist "%temp%\SpotX_Temp*" (
-    for /d %%i in ("%temp%\SpotX_Temp*") do (
+if exist "%temp%\WowSpotify_Temp*" (
+    for /d %%i in ("%temp%\WowSpotify_Temp*") do (
         rd /s/q "%%i" > NUL 2>&1
     )
 )
