@@ -1,5 +1,5 @@
 <p align="center">
-  <a href="https://github.com/rythampkhandelwal/SpotX"></a>
+  <a href="https://github.com/rythampkhandelwal/WowSpotify"></a>
 </p>
 
 <h2> 
@@ -42,14 +42,14 @@
 
   <h4> </h4>
   
-#### Just download and run [Install_New_theme.bat](https://github.com/rythampkhandelwal/SpotX/raw/refs/heads/main/Install_New_theme.bat)
+#### Just download and run [Install_New_theme.bat](https://github.com/rythampkhandelwal/WowSpotify/raw/refs/heads/main/Install_New_theme.bat)
 
 or
 
 #### Run The following command in PowerShell:
 
 ```ps1
-iex "& { $(iwr -useb 'https://github.com/rythampkhandelwal/SpotX/raw/refs/heads/main/run.ps1') } -new_theme"
+iex "& { $(iwr -useb 'https://github.com/rythampkhandelwal/WowSpotify/raw/refs/heads/main/run.ps1') } -new_theme"
 ```
 
 
@@ -72,7 +72,7 @@ iex "& { $(iwr -useb 'https://github.com/rythampkhandelwal/SpotX/raw/refs/heads/
 ### Run The following command in PowerShell:
 
 ```ps1
-iex "& { $(iwr -useb 'https://github.com/rythampkhandelwal/SpotX/raw/refs/heads/main/run.ps1') } -v 1.2.13.661.ga588f749-4064 -confirm_spoti_recomended_over -block_update_on"
+iex "& { $(iwr -useb 'https://github.com/rythampkhandelwal/WowSpotify/raw/refs/heads/main/run.ps1') } -v 1.2.13.661.ga588f749-4064 -confirm_spoti_recomended_over -block_update_on"
 ```
 
 
@@ -92,14 +92,14 @@ iex "& { $(iwr -useb 'https://github.com/rythampkhandelwal/SpotX/raw/refs/heads/
   
 <h4> </h4>
 
-#### Just download and run [Install_Auto.bat](https://github.com/rythampkhandelwal/SpotX/raw/refs/heads/main/scripts/Install_Auto.bat)
+#### Just download and run [Install_Auto.bat](https://github.com/rythampkhandelwal/WowSpotify/raw/refs/heads/main/scripts/Install_Auto.bat)
 
 or
 
 #### Run The following command in PowerShell:
 
 ```ps1
-iex "& { $(iwr -useb 'https://github.com/rythampkhandelwal/SpotX/raw/refs/heads/main/scripts/Install_Auto.bat') } -confirm_uninstall_ms_spoti -confirm_spoti_recomended_over -podcasts_off -block_update_on -start_spoti -new_theme -adsections_off -lyrics_stat spotify"
+iex "& { $(iwr -useb 'https://github.com/rythampkhandelwal/WowSpotify/raw/refs/heads/main/scripts/Install_Auto.bat') } -confirm_uninstall_ms_spoti -confirm_spoti_recomended_over -podcasts_off -block_update_on -start_spoti -new_theme -adsections_off -lyrics_stat spotify"
 ```
 
 </details>
@@ -124,7 +124,7 @@ or
 #### Run The following command in PowerShell:
 
 ```ps1
-iex "& { $(iwr -useb 'https://github.com/rythampkhandelwal/SpotX/raw/refs/heads/main/run.ps1') } -premium -new_theme"
+iex "& { $(iwr -useb 'https://github.com/rythampkhandelwal/WowSpotify/raw/refs/heads/main/run.ps1') } -premium -new_theme"
 ```
 
 
@@ -133,7 +133,7 @@ iex "& { $(iwr -useb 'https://github.com/rythampkhandelwal/SpotX/raw/refs/heads/
 
 <h1 id="uninstall">Uninstall</h1>
 
-- Just run [Uninstall.bat](https://github.com/rythampkhandelwal/SpotX/raw/refs/heads/main/Uninstall.bat)
+- Just run [Uninstall.bat](https://github.com/rythampkhandelwal/WowSpotify/raw/refs/heads/main/Uninstall.bat)
 
 
 
