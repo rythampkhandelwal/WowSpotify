@@ -1,8 +1,8 @@
 [PSCustomObject]@{
     Welcome         = "
-╔══════════════════════════════╗
+╔═══════════════════════════════════╗
 ║ Welcome to WowSpotify for Windows ║
-╚══════════════════════════════╝"
+╚═══════════════════════════════════╝"
     Incorrect       = "Oops, an incorrect value,"
     Incorrect2      = "enter again through "
     Download        = "Error downloading"
@@ -48,3 +48,4 @@
     HostError       = "Something went wrong while editing the hosts file, edit it manually or run the script as administrator"
 
 }
+
