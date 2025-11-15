@@ -117,7 +117,7 @@ iex "& { $(iwr -useb 'https://github.com/rythampkhandelwal/SpotX/raw/refs/heads/
 
   <h4> </h4>
   
-#### Just download and run [Install_Prem.bat](https://github.com/rythampkhandelwal/SpotX/raw/refs/heads/main/scripts/Install_Prem.bat)
+#### Just download and run [Install_Prem.bat](https://github.com/rythampkhandelwal/WowSpotify/raw/refs/heads/master/scripts/Install_Prem.bat)
 
 or
 
