@@ -313,7 +313,7 @@ function Get-Link {
 
     switch ($mirror) {
         $true { return "https://rythampkhandelwal.github.io/WowSpotify" + $endlink }
-        default { return "https://raw.githubusercontent.com/rythampkhandelwal/WowSpotify/main" + $endlink }
+        default { return "https://raw.githubusercontent.com/rythampkhandelwal/WowSpotify/master" + $endlink }
     }
 }
 
